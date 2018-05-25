@@ -7,18 +7,21 @@
 </head>
 <body>
  <!-- Encabezado de Html -->
- <div class="encabezado">
-  <h1> Grupo de WhatsApp  </h1>
-  </div> 
+ <header>
+  <h1> Grupo Secreto de WhatsApp</h1>
+  <div class ="uno">
+  <button id="intro">Instrucciones de la App</button>
+  </div>
+  </header> 
 <!-- Primer bloque -->
 <section class= "primer-bloque">     
     <h3> Mensaje: </h3>   
     <textarea  rows="5"cols="60" placeholder="Ingresa aqui"  ></textarea>
     <!-- Input para los espacios de desplazamiento -->
-    <p> <strong>Espacios a desplazar</strong> 
-    <input type="number" min="1" max="27"> 
-   </p> 
-     
+    <p> <strong>Espacios a desplazar</strong>
+    <input type="number" min="1" max="27"></p> 
+    <button id="displas">Insertar</button>
+    
  <!-- Mis botones Cifrar/ Descifrar -->
 <div>
    <button class="botones">Cifrar</button>
@@ -31,7 +34,6 @@
   <textarea  rows="5"cols="60" placeholder="Ingresa aqui"  ></textarea>
 </section>
 <div id="root"></div>
-
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
