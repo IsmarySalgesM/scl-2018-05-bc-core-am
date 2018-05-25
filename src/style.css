@@ -1,1 +1,56 @@
-/* Acá va tu código */
+
+body{
+    background-image: url(../src/imagen/art-artistic-beautiful-311458.jpg);
+    background-size: 70em
+
+}
+
+input[type="number"] {
+    background-color: rgb(243, 217, 209);
+    color: black;
+    border: none;
+        
+}
+h1{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.botones{
+     justify-content: center;
+     padding: 10px 10px;
+     background-color:#e69d9d ;
+     color: black;
+     font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+     border:5px;
+     color: rgba(15, 5, 5, 0.87);
+ }
+.primer-bloque {
+    text-align: center;
+ }
+textarea {
+    background-color: #eccecad0;
+    text-align: left;
+    border-color: black;
+    font-family: Verdana,Helvetica;
+    width:400px;height:100px;border: 2px solid #990000;
+    
+    
+    
+ }
+.segundo-bloque {
+    text-align: center;
+}
+   
+    
