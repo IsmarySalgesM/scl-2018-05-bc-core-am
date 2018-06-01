@@ -1,45 +1,14 @@
 
 body{
     background-image: url(../src/imagen/art-artistic-beautiful-311458.jpg);
-    background-size: 70em
-}
-
-#intro{
-    margin: 2%;
-    justify-content: center;
-    padding: 10px 10px;
-    background-color:#e69d9d ;
-    color: black;
-    font-weight:bold;
-    font-family: Arial, Helvetica, sans-serif;
-    border:5px;
-    color: rgba(15, 5, 5, 0.87);
-}
-
-.uno{
-    text-align: center;
+    background-size: 90%
+    
 }
 h1,h3 {
     color: black;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Antic', sans-serif;
 }
-#displas {
-    
-    padding: 10px 10px;
-    background-color:#e69d9d ;
-    color: black;
-    font-weight:bold;
-    font-family: Arial, Helvetica, sans-serif;
-    border:5px;
-    color: rgba(15, 5, 5, 0.87);
-    
-    
-}
-/*h3{
-        color: black;
-        font-family: Arial, Helvetica, sans-serif; */  
-
 input[type="number"] {
     background-color: rgb(243, 217, 209);
     color: black;
@@ -47,17 +16,15 @@ input[type="number"] {
 }
 p{
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Antic', sans-serif;
 }
-.botones{
-     justify-content: center;
-     padding: 10px 10px;
-     background-color:#e69d9d ;
-     color: black;
-     font-weight:bold;
-    font-family: Arial, Helvetica, sans-serif;
-     border:5px;
-     color: rgba(15, 5, 5, 0.87);
+button{
+    padding: 2%;
+    border-radius: 7px;
+    font-size: 20px;
+    margin: 2% 2% 1% 2%;
+    font-family: 'Antic', sans-serif;
+    background-color: antiquewhite;
 }
 .primer-bloque {
     text-align: center;
@@ -66,8 +33,9 @@ textarea {
     background-color: #eccecad0;
     text-align: left;
     border-color: black;
-    font-family: Verdana,Helvetica;
-    width:400px;height:100px;border: 2px solid #990000;    
+    font-family: 'Antic', sans-serif;
+    resize: none;
+    widows: 400px;;height:100px;border: 2px solid #990000;    
 }
 .segundo-bloque {
     text-align: center;

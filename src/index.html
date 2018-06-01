@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <!-- Encabezado de Html -->
+  <header>
+    <h1> Grupo Secreto de WhatsApp</h1>
+  </header> 
+<!-- Primer bloque -->
+  <section class= "primer-bloque">     
+    <h3> Mensaje:</h3>   
+  <textarea id="msje_cifrar" rows="5"cols="60" placeholder="Ingresa aqui" ></textarea>
+<!-- Input para los espacios de desplazamiento -->
+  <p> <strong>Espacios a desplazar</strong>
+    <input id= "desplazamiento" type="number" min="1" max="27"></p> 
+<!-- Mis botones Cifrar/ Descifrar -->
+<div>
+   <button id="btn_cifrar"=>Cifrar</button>
+   <button id="btn_descifrar"=>Descifrar</button>        
+</div>
+</section>
+<!-- Segundo bloque -->
+<section class= "segundo-bloque">
+    <h3> Mensaje : </h3>
+      <textarea id="msj_descifrar" rows="5"cols="60" placeholder="Ingresa aqui"  ></textarea>
+</section>
+<div id="root"></div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
