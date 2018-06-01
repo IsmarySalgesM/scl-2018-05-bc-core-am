@@ -1,7 +1,7 @@
 
 body{
     background-image: url(../src/imagen/art-artistic-beautiful-311458.jpg);
-    background-size: 90%
+    background-size: 100%
     
 }
 h1,h3 {
@@ -33,6 +33,12 @@ button{
 .primer-bloque {
     text-align: center;
 }
+.text_show{
+    padding: 2%;
+    border: 2px;
+    border-radius: 7px;
+    display: none
+}
 textarea {
     background-color: #eccecad0;
     text-align: left;
@@ -40,8 +46,7 @@ textarea {
     font-size: 20px;
     font-family: 'Antic', sans-serif;
     resize: none;
-    padding: 1%;
-    width: 45%; height:200%; border: 2px solid #990000;    
+    width: 45%; height:100%; border: 2px solid #990000;    
 }
 .segundo-bloque {
     text-align: center;
